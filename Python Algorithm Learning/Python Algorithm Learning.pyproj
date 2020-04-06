@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>381533ab-47fd-49ff-b9a5-70898014c2a7</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>SumAlgorithm.py</StartupFile>
+    <StartupFile>GroupAlgorithm\practice_group.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,8 +21,103 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Python_Algorithm_Learning.py" />
-    <Compile Include="SumAlgorithm.py" />
+    <Compile Include="AverageAlgorithm\AverageAlgorithm.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="AverageAlgorithm\practice_average.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CountAlgorithm\practice_count.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GroupAlgorithm\GroupAlgorithm.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GroupAlgorithm\practice_group.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MaxAlgorithm\MaxAlgorithm.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MaxAlgorithm\practice_max.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MergeAlgorithm\Merge.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MergeAlgorithm\MergeAlgorithm.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MergeAlgorithm\practice_SortnMerge.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MinAlgorithm\MinAlgorithm.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MinAlgorithm\practice_min.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MODEAlgorithm\MODEAlgorithm.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MODEAlgorithm\practice_MODE.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="NearAlgorithm\NearAlgorithm.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="NearAlgorithm\practice_Near.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="RankAlgorithm\practice_Rank.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="RankAlgorithm\RankAlgorithm%289people%29.py" />
+    <Compile Include="RankAlgorithm\RankAlgorithm.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SearchAlgorithm\BinarySearch.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SearchAlgorithm\practice_search.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SearchAlgorithm\SearchAlgorithm.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SortAlgorithm\practice_Sort.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SortAlgorithm\SelectionSortAlgorithm.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SumAlgorithm\ArithmeticSequence.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CountAlgorithm\CountAlgorithm.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SumAlgorithm\practice_Arithmetic.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SumAlgorithm\practice_Sum.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SumAlgorithm\SumAlgorithm.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="CountAlgorithm\" />
+    <Folder Include="AverageAlgorithm\" />
+    <Folder Include="MaxAlgorithm\" />
+    <Folder Include="MinAlgorithm\" />
+    <Folder Include="NearAlgorithm\" />
+    <Folder Include="MergeAlgorithm\" />
+    <Folder Include="MODEAlgorithm\" />
+    <Folder Include="GroupAlgorithm\" />
+    <Folder Include="SearchAlgorithm\" />
+    <Folder Include="SortAlgorithm\" />
+    <Folder Include="RankAlgorithm\" />
+    <Folder Include="SumAlgorithm\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
